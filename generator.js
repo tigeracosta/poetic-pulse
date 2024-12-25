@@ -3,7 +3,7 @@ function generateIdea() {
     const themes = ["love", "friendship", "loss", "adventure", "hope", "nature", "dreams", "memories", "courage", "mystery"];
     const subjects = ["the moon", "river", "dog", "childhood memory", "fire", "rain", "snowflakes", "stars", "trees", "favorite toy", "friendship", "goodbye"];
     const settings = ["forest", "ocean", "city", "mountain", "dream", "cozy living room", "snow-covered backyard", "park at sunset", "childhood bedroom", "under a starry sky", "edge of a river", "quiet graveyard"];
-    const moods = ["joyful", "melancholic", "peaceful", "nostalgic", "tense", "romantic", "mysterious", "reflective", "Ominous", "whimsical", "anxious"];
+    const moods = ["Melancholic", "Whimsical", "Contemplative", "Euphoric", "Ominous", "Serene", "Nostalgic", "Anxious", "Reverent", "Bittersweet", "Mysterious", "Hopeful", "Foreboding", "Introspective", "Jubilant", "Somber", "Ethereal", "Restless", "Awe-inspired", "Wistful", “Joyful”, “Peaceful”, “Tense”, “Romantic”, “Reflective”, “Anxious”];
 
     // Randomly select one from each category
     const theme = themes[Math.floor(Math.random() * themes.length)];
