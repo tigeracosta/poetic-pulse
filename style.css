@@ -64,6 +64,10 @@ button:hover {
     border: 1px solid #ccc;
 }
 
+#savedList div {
+    color: white; /* Set the text color to white */
+}
+
 .saved-idea button {
     background: #d00000;
     color: #fff;
